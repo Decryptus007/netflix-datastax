@@ -19,6 +19,7 @@ exports.handler = async function (event) {
                     synopsis,
                     thumbnail
                 }
+                pageState
             }
         }
     `

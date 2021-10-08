@@ -17,6 +17,7 @@ const Section = ({ genre }) => {
     
     useEffect(() => {
     fetchData()
+    // eslint-disable-next-line
     }, [])
 
     return (

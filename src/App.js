@@ -22,8 +22,10 @@ const App = () => {
   console.log(limit)
 
   useEffect(() => {
+    // eslint-disable-next-line
     fetchData()
-  }, [, limit])
+    // eslint-disable-next-line
+  }, [limit])
 
   console.log(genres)
   return (
